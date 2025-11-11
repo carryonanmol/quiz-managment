@@ -1,0 +1,29 @@
+This file tells Git to ignore specific files and folders.
+
+Python virtual environments
+
+venv/
+venv_server/
+venv_client/
+
+Compiled Python files
+
+*.pyc
+pycache/
+
+Database files
+
+*.db
+*.sqlite
+*.sqlite3
+
+Packaging files (from PyInstaller)
+
+dist/
+build/
+*.spec
+
+IDE/Editor config
+
+.vscode/
+.idea/
